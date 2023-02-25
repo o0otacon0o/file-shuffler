@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>FileShuffler</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <div class="main-div">
+      <h1>Hallo, was darf ich heute shuffeln?</h1>
+      <button id="folder-picker">1. Ordner wählen</button>
+      <p id="status-p" hidden="true"></p>
+      <button id="shuffle-files">2. Dateien mischen</button>
+      <p id="end-status-p" hidden="true"></p>
+    </div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js');
+    </script>
+  </body>
+</html>
